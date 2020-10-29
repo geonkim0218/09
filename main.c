@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 		score[i] = grade[i];
 		
 	for(i=0;i<SIZE;i++)
-		printf("score[&d] %i (%i)\n", i, score[i], grade[i]);
+		printf("score[%d] %i (%i)\n", i, score[i], grade[i]);
 	
  	return 0;
 }
